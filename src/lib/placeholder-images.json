@@ -1,0 +1,41 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "landing-hero",
+      "description": "An abstract, futuristic visual representing AI and career pathways.",
+      "imageUrl": "https://picsum.photos/seed/ai-career-path/1200/800",
+      "imageHint": "abstract career"
+    },
+    {
+      "id": "feature-psychometric",
+      "description": "Illustration of a brain with glowing circuits, representing a psychometric test.",
+      "imageUrl": "https://picsum.photos/seed/abstract-brain-neural/600/400",
+      "imageHint": "abstract brain"
+    },
+    {
+      "id": "feature-roadmaps",
+      "description": "A visual of a winding path with milestones leading to a goal.",
+      "imageUrl": "https://picsum.photos/seed/futuristic-roadmap/600/400",
+      "imageHint": "futuristic path"
+    },
+    {
+      "id": "feature-tracker",
+      "description": "A collection of shiny, modern badges and a progress bar.",
+      "imageUrl": "https://picsum.photos/seed/modern-badges/600/400",
+      "imageHint": "digital badges"
+    },
+    {
+      "id": "feature-resume",
+      "description": "A sleek, professional document with modern typography.",
+      "imageUrl": "https://picsum.photos/seed/professional-resume/600/400",
+      "imageHint": "modern resume"
+    },
+    {
+      "id": "feature-jobs",
+      "description": "A world map with glowing connection lines, representing global opportunities.",
+      "imageUrl": "https://picsum.photos/seed/worldwide-opportunities/600/400",
+      "imageHint": "global connections"
+    }
+  ]
+}

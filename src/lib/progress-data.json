@@ -1,0 +1,464 @@
+
+{
+  "Education": {
+    "Teacher": {
+      "milestones": [
+        { "task": "Completed a teaching certification or training program", "badge": { "name": "Certified Educator", "icon": "📜" }, "progressWeight": 20 },
+        { "task": "Taught your first classroom session successfully", "badge": { "name": "First Class Taught", "icon": "🏫" }, "progressWeight": 20 },
+        { "task": "Designed a complete lesson plan or curriculum", "badge": { "name": "Curriculum Builder", "icon": "📘" }, "progressWeight": 20 },
+        { "task": "Achieved specialization in a subject area (e.g., Math, Science, Literature)", "badge": { "name": "Subject Specialist", "icon": "🔬" }, "progressWeight": 20 },
+        { "task": "Received positive feedback or recognition from students/parents", "badge": { "name": "Recognized Mentor", "icon": "🌟" }, "progressWeight": 20 }
+      ]
+    },
+    "Lecturer": {
+      "milestones": [
+        { "task": "Completed a postgraduate degree (Master’s or higher)", "badge": { "name": "Postgraduate Achiever", "icon": "🎓" }, "progressWeight": 20 },
+        { "task": "Delivered your first university lecture", "badge": { "name": "First Lecture", "icon": "🏛️" }, "progressWeight": 20 },
+        { "task": "Created and delivered a complete university course module", "badge": { "name": "Course Designer", "icon": "📖" }, "progressWeight": 20 },
+        { "task": "Achieved specialization in a teaching subject or research field", "badge": { "name": "Field Specialist", "icon": "🔬" }, "progressWeight": 20 },
+        { "task": "Received strong teaching feedback from students", "badge": { "name": "Student Favorite", "icon": "🌟" }, "progressWeight": 20 }
+      ]
+    },
+    "Professor": {
+      "milestones": [
+        { "task": "Completed a PhD or equivalent advanced degree", "badge": { "name": "Doctorate Achieved", "icon": "🎓" }, "progressWeight": 20 },
+        { "task": "Published your first research paper in a peer-reviewed journal", "badge": { "name": "Published Scholar", "icon": "📝" }, "progressWeight": 20 },
+        { "task": "Guided or mentored graduate students successfully", "badge": { "name": "Academic Mentor", "icon": "👩‍🎓" }, "progressWeight": 20 },
+        { "task": "Achieved specialization in your field of expertise (e.g., Physics, Economics, History)", "badge": { "name": "Field Specialist", "icon": "🔬" }, "progressWeight": 20 },
+        { "task": "Presented research at an international conference or symposium", "badge": { "name": "Conference Speaker", "icon": "🌍" }, "progressWeight": 20 }
+      ]
+    },
+    "Academic Counselor": {
+      "milestones": [
+        { "task": "Completed certification in academic or career counseling", "badge": { "name": "Certified Counselor", "icon": "📜" }, "progressWeight": 20 },
+        { "task": "Guided your first student successfully toward career goals", "badge": { "name": "First Student Guided", "icon": "👩‍🎓" }, "progressWeight": 20 },
+        { "task": "Organized a career workshop or seminar", "badge": { "name": "Workshop Leader", "icon": "🎤" }, "progressWeight": 20 },
+        { "task": "Achieved specialization in counseling (e.g., academic, psychological, career)", "badge": { "name": "Specialized Counselor", "icon": "🧑‍🏫" }, "progressWeight": 20 },
+        { "task": "Helped multiple students achieve significant success", "badge": { "name": "Student Success Mentor", "icon": "🌟" }, "progressWeight": 20 }
+      ]
+    }
+  },
+  "IT & Software Engineering": {
+    "Software Engineer": {
+      "milestones": [
+        { "task": "Learned foundational programming languages (C, Java, Python)", "badge": { "name": "Code Learner", "icon": "💻" }, "progressWeight": 20 },
+        { "task": "Built and deployed your first real-world application", "badge": { "name": "App Builder", "icon": "📱" }, "progressWeight": 20 },
+        { "task": "Contributed to an open-source or team project", "badge": { "name": "Team Contributor", "icon": "🤝" }, "progressWeight": 20 },
+        { "task": "Achieved specialization in a field (e.g., backend, cloud, AI)", "badge": { "name": "Tech Specialist", "icon": "🔧" }, "progressWeight": 20 },
+        { "task": "Secured a software engineering internship or job", "badge": { "name": "Industry Ready", "icon": "🏢" }, "progressWeight": 20 }
+      ]
+    },
+    "Frontend Developer": {
+      "milestones": [
+        { "task": "Learned HTML, CSS, and JavaScript fundamentals", "badge": { "name": "Web Basics", "icon": "🌐" }, "progressWeight": 20 },
+        { "task": "Built and hosted your first personal website", "badge": { "name": "First Website", "icon": "🖥️" }, "progressWeight": 20 },
+        { "task": "Created responsive layouts and user interfaces", "badge": { "name": "UI Designer", "icon": "🎨" }, "progressWeight": 20 },
+        { "task": "Achieved specialization in a frontend framework (e.g., React, Angular, Vue)", "badge": { "name": "Frontend Specialist", "icon": "⚛️" }, "progressWeight": 20 },
+        { "task": "Contributed to a production-level frontend project", "badge": { "name": "Project Contributor", "icon": "🚀" }, "progressWeight": 20 }
+      ]
+    },
+    "Backend Developer": {
+      "milestones": [
+        { "task": "Learned backend fundamentals (APIs, databases, servers)", "badge": { "name": "Backend Basics", "icon": "🗄️" }, "progressWeight": 20 },
+        { "task": "Built your first API and connected it to a frontend", "badge": { "name": "API Builder", "icon": "🔗" }, "progressWeight": 20 },
+        { "task": "Implemented authentication and security features", "badge": { "name": "Secure Coder", "icon": "🔒" }, "progressWeight": 20 },
+        { "task": "Achieved specialization in a backend technology (e.g., Node.js, Django, Spring Boot)", "badge": { "name": "Backend Specialist", "icon": "⚙️" }, "progressWeight": 20 },
+        { "task": "Deployed a backend system to cloud (AWS, GCP, Azure)", "badge": { "name": "Cloud Deployer", "icon": "☁️" }, "progressWeight": 20 }
+      ]
+    },
+    "Fullstack Developer": {
+      "milestones": [
+        { "task": "Built and hosted your first fullstack project", "badge": { "name": "Fullstack Beginner", "icon": "🌐" }, "progressWeight": 20 },
+        { "task": "Integrated frontend and backend successfully", "badge": { "name": "System Integrator", "icon": "🔗" }, "progressWeight": 20 },
+        { "task": "Implemented database-driven application features", "badge": { "name": "Database Pro", "icon": "🗄️" }, "progressWeight": 20 },
+        { "task": "Achieved specialization in a stack (e.g., MERN, MEAN, LAMP)", "badge": { "name": "Stack Specialist", "icon": "🧩" }, "progressWeight": 20 },
+        { "task": "Contributed to or led a real-world fullstack project", "badge": { "name": "Project Leader", "icon": "🚀" }, "progressWeight": 20 }
+      ]
+    },
+    "Mobile App Developer": {
+      "milestones": [
+        { "task": "Learned mobile development basics (Java/Kotlin for Android or Swift for iOS)", "badge": { "name": "Mobile Basics", "icon": "📱" }, "progressWeight": 20 },
+        { "task": "Built and launched your first mobile app", "badge": { "name": "First App", "icon": "🚀" }, "progressWeight": 20 },
+        { "task": "Implemented core features like authentication, notifications, or payments", "badge": { "name": "Feature Builder", "icon": "🔧" }, "progressWeight": 20 },
+        { "task": "Achieved specialization in mobile frameworks (e.g., Flutter, React Native, SwiftUI)", "badge": { "name": "Mobile Specialist", "icon": "📲" }, "progressWeight": 20 },
+        { "task": "Published an app to Google Play Store or Apple App Store", "badge": { "name": "App Publisher", "icon": "🏆" }, "progressWeight": 20 }
+      ]
+    },
+    "IT Support Specialist": {
+      "milestones": [
+        { "task": "Learned computer hardware, software, and troubleshooting basics", "badge": { "name": "Support Basics", "icon": "💻" }, "progressWeight": 20 },
+        { "task": "Resolved your first set of IT support tickets", "badge": { "name": "Ticket Resolver", "icon": "📩" }, "progressWeight": 20 },
+        { "task": "Configured networks, printers, or servers for users", "badge": { "name": "System Configurator", "icon": "🖥️" }, "progressWeight": 20 },
+        { "task": "Achieved specialization in IT support area (e.g., Networking, Security, Cloud)", "badge": { "name": "IT Specialist", "icon": "🔧" }, "progressWeight": 20 },
+        { "task": "Earned a recognized IT certification (CompTIA A+, ITIL, CCNA)", "badge": { "name": "Certified Support", "icon": "🎓" }, "progressWeight": 20 }
+      ]
+    },
+    "Database Administrator": {
+      "milestones": [
+        { "task": "Learned SQL and database fundamentals", "badge": { "name": "DB Basics", "icon": "🗄️" }, "progressWeight": 20 },
+        { "task": "Created and managed your first database", "badge": { "name": "DB Creator", "icon": "📂" }, "progressWeight": 20 },
+        { "task": "Optimized queries and improved database performance", "badge": { "name": "Performance Tuner", "icon": "⚡" }, "progressWeight": 20 },
+        { "task": "Achieved specialization in a DB system (e.g., MySQL, PostgreSQL, MongoDB, Oracle)", "badge": { "name": "DB Specialist", "icon": "🔬" }, "progressWeight": 20 },
+        { "task": "Implemented backup and recovery solutions", "badge": { "name": "Data Protector", "icon": "🛡️" }, "progressWeight": 20 }
+      ]
+    }
+  },
+  "Data & AI": {
+    "Data Scientist": {
+      "milestones": [
+        { "task": "Mastered statistics, probability, and Python for data science", "badge": { "name": "Data Basics", "icon": "📊" }, "progressWeight": 20 },
+        { "task": "Completed first data analysis project with real datasets", "badge": { "name": "Data Explorer", "icon": "🔍" }, "progressWeight": 20 },
+        { "task": "Built and evaluated your first machine learning model", "badge": { "name": "ML Beginner", "icon": "🤖" }, "progressWeight": 20 },
+        { "task": "Achieved specialization in a data science area (e.g., NLP, CV, Deep Learning)", "badge": { "name": "Data Specialist", "icon": "📈" }, "progressWeight": 20 },
+        { "task": "Published or deployed a data science solution in production", "badge": { "name": "Industry Ready", "icon": "🚀" }, "progressWeight": 20 }
+      ]
+    },
+    "AI Engineer": {
+      "milestones": [
+        { "task": "Learned AI foundations (machine learning, neural networks)", "badge": { "name": "AI Basics", "icon": "🧠" }, "progressWeight": 20 },
+        { "task": "Built and trained your first AI model", "badge": { "name": "First AI Model", "icon": "🤖" }, "progressWeight": 20 },
+        { "task": "Integrated AI into a real-world application", "badge": { "name": "AI Integrator", "icon": "🔗" }, "progressWeight": 20 },
+        { "task": "Achieved specialization in AI domain (e.g., NLP, Computer Vision, Reinforcement Learning)", "badge": { "name": "AI Specialist", "icon": "⚡" }, "progressWeight": 20 },
+        { "task": "Deployed an AI system to production", "badge": { "name": "AI Deployer", "icon": "🚀" }, "progressWeight": 20 }
+      ]
+    },
+    "Machine Learning Engineer": {
+      "milestones": [
+        { "task": "Learned ML foundations (supervised, unsupervised learning)", "badge": { "name": "ML Basics", "icon": "📚" }, "progressWeight": 20 },
+        { "task": "Implemented ML models using libraries like Scikit-learn or TensorFlow", "badge": { "name": "Model Builder", "icon": "🔢" }, "progressWeight": 20 },
+        { "task": "Optimized models for accuracy and performance", "badge": { "name": "Optimizer", "icon": "⚙️" }, "progressWeight": 20 },
+        { "task": "Achieved specialization in ML subdomain (e.g., Deep Learning, Recommendation Systems)", "badge": { "name": "ML Specialist", "icon": "🔬" }, "progressWeight": 20 },
+        { "task": "Deployed ML pipelines into production systems", "badge": { "name": "Pipeline Engineer", "icon": "🚀" }, "progressWeight": 20 }
+      ]
+    }
+  },
+  "Cloud & DevOps": {
+    "Cloud Engineer": {
+      "milestones": [
+        { "task": "Learned cloud computing basics (AWS, Azure, GCP)", "badge": { "name": "Cloud Basics", "icon": "☁️" }, "progressWeight": 20 },
+        { "task": "Deployed your first application to the cloud", "badge": { "name": "First Deployment", "icon": "🚀" }, "progressWeight": 20 },
+        { "task": "Implemented cloud networking, storage, and scaling features", "badge": { "name": "Cloud Builder", "icon": "🔧" }, "progressWeight": 20 },
+        { "task": "Achieved specialization in a cloud provider or service (e.g., AWS Solutions Architect, Kubernetes)", "badge": { "name": "Cloud Specialist", "icon": "🌐" }, "progressWeight": 20 },
+        { "task": "Earned cloud certification (AWS, GCP, Azure)", "badge": { "name": "Certified Cloud Engineer", "icon": "🎓" }, "progressWeight": 20 }
+      ]
+    },
+    "DevOps Engineer": {
+      "milestones": [
+        { "task": "Learned DevOps fundamentals (CI/CD, containers, automation)", "badge": { "name": "DevOps Basics", "icon": "⚙️" }, "progressWeight": 20 },
+        { "task": "Set up your first CI/CD pipeline", "badge": { "name": "Pipeline Builder", "icon": "🛠️" }, "progressWeight": 20 },
+        { "task": "Deployed and monitored applications in production", "badge": { "name": "Deployment Master", "icon": "🚀" }, "progressWeight": 20 },
+        { "task": "Achieved specialization in DevOps tools (e.g., Docker, Kubernetes, Jenkins)", "badge": { "name": "DevOps Specialist", "icon": "🐳" }, "progressWeight": 20 },
+        { "task": "Automated infrastructure with IaC (Terraform, Ansible)", "badge": { "name": "Automation Expert", "icon": "🤖" }, "progressWeight": 20 }
+      ]
+    },
+    "Cybersecurity Analyst": {
+      "milestones": [
+        { "task": "Learned basics of network security and ethical hacking", "badge": { "name": "Security Basics", "icon": "🔐" }, "progressWeight": 20 },
+        { "task": "Conducted your first vulnerability assessment", "badge": { "name": "Vulnerability Hunter", "icon": "🛡️" }, "progressWeight": 20 },
+        { "task": "Implemented incident response or security monitoring", "badge": { "name": "Incident Responder", "icon": "⚠️" }, "progressWeight": 20 },
+        { "task": "Achieved specialization in cybersecurity domain (e.g., Cloud Security, Pen Testing, Forensics)", "badge": { "name": "Security Specialist", "icon": "🔒" }, "progressWeight": 20 },
+        { "task": "Earned a recognized certification (CEH, CISSP, CompTIA Security+)", "badge": { "name": "Certified Professional", "icon": "🎖️" }, "progressWeight": 20 }
+      ]
+    }
+  },
+  "Core Engineering": {
+    "Civil Engineer": {
+      "milestones": [
+        { "task": "Complete a bachelor's degree in civil engineering", "badge": { "name": "Engineering Graduate", "icon": "🎓" }, "progressWeight": 17 },
+        { "task": "Obtain relevant certification or licensure", "badge": { "name": "Licensed Engineer", "icon": "📜" }, "progressWeight": 17 },
+        { "task": "Work on first construction or infrastructure project", "badge": { "name": "Project Contributor", "icon": "🏗️" }, "progressWeight": 17 },
+        { "task": "Achieve specialization in any one relevant area (e.g., structural, environmental, transportation)", "badge": { "name": "Field Specialist", "icon": "🌉" }, "progressWeight": 17 },
+        { "task": "Gain hands-on experience with project management software", "badge": { "name": "Tech Savvy Engineer", "icon": "💻" }, "progressWeight": 16 },
+        { "task": "Lead a small team or part of a larger project", "badge": { "name": "Team Leader", "icon": "👷" }, "progressWeight": 16 }
+      ]
+    },
+    "Mechanical Engineer": {
+      "milestones": [
+        { "task": "Complete a bachelor's degree in mechanical engineering", "badge": { "name": "Mech-E Graduate", "icon": "🎓" }, "progressWeight": 17 },
+        { "task": "Build and test your first mechanical prototype or design", "badge": { "name": "Prototype Builder", "icon": "🔧" }, "progressWeight": 17 },
+        { "task": "Achieve specialization in any one relevant area (e.g., robotics, thermodynamics, automotive)", "badge": { "name": "Mechanical Specialist", "icon": "🤖" }, "progressWeight": 17 },
+        { "task": "Gain experience with CAD/CAE tools", "badge": { "name": "CAD Expert", "icon": "📐" }, "progressWeight": 17 },
+        { "task": "Complete an internship or entry-level engineering role", "badge": { "name": "Industry Intern", "icon": "🏢" }, "progressWeight": 16 },
+        { "task": "Lead or contribute significantly to a product development cycle", "badge": { "name": "Product Developer", "icon": "🚀" }, "progressWeight": 16 }
+      ]
+    },
+    "Electrical Engineer": {
+      "milestones": [
+        { "task": "Earn a bachelor's degree in electrical engineering", "badge": { "name": "Elec-E Graduate", "icon": "🎓" }, "progressWeight": 17 },
+        { "task": "Work on your first circuit/system design project", "badge": { "name": "Circuit Designer", "icon": "💡" }, "progressWeight": 17 },
+        { "task": "Achieve specialization in any one relevant area (e.g., power systems, electronics, communications)", "badge": { "name": "Electrical Specialist", "icon": "⚡" }, "progressWeight": 17 },
+        { "task": "Obtain internship or industry experience", "badge": { "name": "Industry Experience", "icon": "🏢" }, "progressWeight": 17 },
+        { "task": "Build and test real-world electrical/electronic systems", "badge": { "name": "System Builder", "icon": "🛠️" }, "progressWeight": 16 },
+        { "task": "Develop expertise in safety and compliance standards", "badge": { "name": "Safety Certified", "icon": "🛡️" }, "progressWeight": 16 }
+      ]
+    }
+  },
+  "Business & Management": {
+    "Business Analyst": {
+      "milestones": [
+        { "task": "Earn a degree in business, IT, or related field", "badge": { "name": "Business Graduate", "icon": "🎓" }, "progressWeight": 17 },
+        { "task": "Learn data analysis tools (Excel, SQL, Power BI)", "badge": { "name": "Data Tool Master", "icon": "📊" }, "progressWeight": 17 },
+        { "task": "Work on your first case study or business requirements document", "badge": { "name": "Analyst Contributor", "icon": "📝" }, "progressWeight": 17 },
+        { "task": "Achieve specialization in any one relevant area (e.g., finance, IT systems, supply chain)", "badge": { "name": "Domain Specialist", "icon": "💡" }, "progressWeight": 17 },
+        { "task": "Complete an internship or real-world business project", "badge": { "name": "Project Experience", "icon": "🏢" }, "progressWeight": 16 },
+        { "task": "Develop stakeholder communication and presentation skills", "badge": { "name": "Master Communicator", "icon": "🎤" }, "progressWeight": 16 }
+      ]
+    },
+    "Project Manager": {
+      "milestones": [
+        { "task": "Earn a degree in business, engineering, or related field", "badge": { "name": "Qualified Graduate", "icon": "🎓" }, "progressWeight": 17 },
+        { "task": "Manage your first small project or academic project", "badge": { "name": "First Project", "icon": "🚀" }, "progressWeight": 17 },
+        { "task": "Get certified (PMP, PRINCE2, Agile, or Scrum Master)", "badge": { "name": "Certified Manager", "icon": "📜" }, "progressWeight": 17 },
+        { "task": "Achieve specialization in any one relevant area (e.g., IT projects, construction, healthcare)", "badge": { "name": "Industry Specialist", "icon": "🏗️" }, "progressWeight": 17 },
+        { "task": "Lead a medium to large project successfully", "badge": { "name": "Project Leader", "icon": "🏆" }, "progressWeight": 16 },
+        { "task": "Develop advanced leadership, risk management, and budgeting skills", "badge": { "name": "Strategic Leader", "icon": "🎯" }, "progressWeight": 16 }
+      ]
+    },
+    "HR Manager": {
+      "milestones": [
+        { "task": "Complete a degree in HR, management, or psychology", "badge": { "name": "HR Graduate", "icon": "🎓" }, "progressWeight": 17 },
+        { "task": "Gain experience as an HR assistant or recruiter", "badge": { "name": "HR Assistant", "icon": "📄" }, "progressWeight": 17 },
+        { "task": "Achieve specialization in any one relevant area (e.g., talent acquisition, employee relations, compensation)", "badge": { "name": "HR Specialist", "icon": "🤝" }, "progressWeight": 17 },
+        { "task": "Develop skills in HR software (Workday, SAP, BambooHR)", "badge": { "name": "HR Tech Pro", "icon": "💻" }, "progressWeight": 17 },
+        { "task": "Design and implement HR policies or training programs", "badge": { "name": "Policy Maker", "icon": "📋" }, "progressWeight": 16 },
+        { "task": "Successfully handle employee conflict resolution or labor relations", "badge": { "name": "Conflict Resolver", "icon": "🕊️" }, "progressWeight": 16 }
+      ]
+    }
+  },
+  "Creative & Design": {
+    "Graphic Designer": {
+      "milestones": [
+        { "task": "Earn a degree/diploma in Graphic Design or related field", "badge": { "name": "Design Graduate", "icon": "🎓" }, "progressWeight": 20 },
+        { "task": "Learn tools like Photoshop, Illustrator, Figma", "badge": { "name": "Tool Master", "icon": "🎨" }, "progressWeight": 20 },
+        { "task": "Build a creative portfolio", "badge": { "name": "Portfolio Pro", "icon": "🖼️" }, "progressWeight": 20 },
+        { "task": "Specialize in branding, UI/UX, or advertising", "badge": { "name": "Design Specialist", "icon": "💡" }, "progressWeight": 20 },
+        { "task": "Work in agencies, companies, or freelance", "badge": { "name": "Professional Designer", "icon": "🏢" }, "progressWeight": 20 }
+      ]
+    },
+    "Game Developer": {
+      "milestones": [
+        { "task": "Learned game development basics (Unity, Unreal Engine, or Godot)", "badge": { "name": "Game Basics", "icon": "🎮" }, "progressWeight": 20 },
+        { "task": "Built your first playable game project", "badge": { "name": "First Game", "icon": "🕹️" }, "progressWeight": 20 },
+        { "task": "Implemented advanced game mechanics (physics, AI, multiplayer)", "badge": { "name": "Mechanics Master", "icon": "⚙️" }, "progressWeight": 20 },
+        { "task": "Achieved specialization in a game genre or engine", "badge": { "name": "Game Specialist", "icon": "🏆" }, "progressWeight": 20 },
+        { "task": "Published a game on Steam, Play Store, or App Store", "badge": { "name": "Game Publisher", "icon": "🚀" }, "progressWeight": 20 }
+      ]
+    }
+  },
+  "Medical & Healthcare": {
+    "Nurse": {
+      "milestones": [
+        { "task": "Complete nursing degree or diploma", "badge": { "name": "Degree Holder", "icon": "🎓" }, "progressWeight": 17 },
+        { "task": "Obtain nursing license (NCLEX or local equivalent)", "badge": { "name": "Licensed Nurse", "icon": "📜" }, "progressWeight": 17 },
+        { "task": "Gain experience in a hospital or clinical setting", "badge": { "name": "Clinical Experience", "icon": "🏥" }, "progressWeight": 17 },
+        { "task": "Achieved specialization in any one relevant area (e.g., pediatrics, ICU, oncology)", "badge": { "name": "Specialist Nurse", "icon": " specialist" }, "progressWeight": 17 },
+        { "task": "Develop patient communication and empathy skills", "badge": { "name": "Patient Advocate", "icon": "🤝" }, "progressWeight": 16 },
+        { "task": "Complete advanced life support or CPR certification", "badge": { "name": "Life Saver", "icon": "❤️" }, "progressWeight": 16 }
+      ]
+    },
+    "Doctor": {
+      "milestones": [
+        { "task": "Complete MBBS/MD or equivalent medical degree", "badge": { "name": "Medical Graduate", "icon": "🎓" }, "progressWeight": 17 },
+        { "task": "Pass required licensing examinations", "badge": { "name": "Licensed Physician", "icon": "📜" }, "progressWeight": 17 },
+        { "task": "Complete internship/residency in chosen specialization", "badge": { "name": "Resident Doctor", "icon": "👨‍⚕️" }, "progressWeight": 17 },
+        { "task": "Achieve specialization in chosen medical field", "badge": { "name": "Medical Specialist", "icon": "🔬" }, "progressWeight": 17 },
+        { "task": "Publish or contribute to medical research or case studies", "badge": { "name": "Researcher", "icon": "📝" }, "progressWeight": 16 },
+        { "task": "Develop strong diagnostic and patient care skills", "badge": { "name": "Expert Diagnostician", "icon": "🩺" }, "progressWeight": 16 }
+      ]
+    },
+     "Pharmacist": {
+      "milestones": [
+        { "task": "Earn a Bachelor's/Doctorate in Pharmacy (B.Pharm/Pharm.D)", "badge": { "name": "Pharmacy Graduate", "icon": "🎓" }, "progressWeight": 20 },
+        { "task": "Complete internships in hospitals or retail pharmacies", "badge": { "name": "Clinical Intern", "icon": "🏥" }, "progressWeight": 20 },
+        { "task": "Obtain licensure/registration from pharmacy board", "badge": { "name": "Licensed Pharmacist", "icon": "📜" }, "progressWeight": 20 },
+        { "task": "Specialize in clinical, retail, or research pharmacy", "badge": { "name": "Pharma Specialist", "icon": "💊" }, "progressWeight": 20 },
+        { "task": "Work in hospitals, research labs, or pharmaceutical companies", "badge": { "name": "Industry Pharmacist", "icon": "🏢" }, "progressWeight": 20 }
+      ]
+    }
+  },
+  "Legal": {
+    "Lawyer": {
+      "milestones": [
+        { "task": "Complete a law degree (LLB or JD)", "badge": { "name": "Law Graduate", "icon": "🎓" }, "progressWeight": 17 },
+        { "task": "Pass the bar exam in your jurisdiction", "badge": { "name": "Bar Certified", "icon": "⚖️" }, "progressWeight": 17 },
+        { "task": "Work as an intern or junior associate in a law firm", "badge": { "name": "Firm Experience", "icon": "🏢" }, "progressWeight": 17 },
+        { "task": "Achieve specialization in a field (criminal, corporate, civil, etc.)", "badge": { "name": "Legal Specialist", "icon": " specialize" }, "progressWeight": 17 },
+        { "task": "Successfully represent a client in court or legal proceedings", "badge": { "name": "Courtroom Veteran", "icon": "🏛️" }, "progressWeight": 16 },
+        { "task": "Build strong negotiation and legal writing skills", "badge": { "name": "Master Negotiator", "icon": "✍️" }, "progressWeight": 16 }
+      ]
+    }
+  },
+  "Sports & Fitness": {
+    "Athlete": {
+      "milestones": [
+        { "task": "Joined a team or club", "badge": { "name": "Team Player", "icon": "⚽" }, "progressWeight": 20 },
+        { "task": "Played first official match", "badge": { "name": "Debut Match", "icon": "🎯" }, "progressWeight": 20 },
+        { "task": "Improved personal best", "badge": { "name": "Record Setter", "icon": "🏅" }, "progressWeight": 20 },
+        { "task": "Represented at higher level", "badge": { "name": "State/College Rep", "icon": "🎽" }, "progressWeight": 20 },
+        { "task": "Won recognition/medal", "badge": { "name": "Champion", "icon": "🥇" }, "progressWeight": 20 }
+      ]
+    },
+    "Coach": {
+      "milestones": [
+        { "task": "Completed coaching certification", "badge": { "name": "Certified Coach", "icon": "📜" }, "progressWeight": 20 },
+        { "task": "Trained first batch of players", "badge": { "name": "First Team Trained", "icon": "🏟️" }, "progressWeight": 20 },
+        { "task": "Designed training program", "badge": { "name": "Program Builder", "icon": "📘" }, "progressWeight": 20 },
+        { "task": "Guided team to a win", "badge": { "name": "Winning Coach", "icon": "🏆" }, "progressWeight": 20 },
+        { "task": "Received recognition/award", "badge": { "name": "Respected Mentor", "icon": "🌟" }, "progressWeight": 20 }
+      ]
+    },
+    "Sports Analyst": {
+      "milestones": [
+        { "task": "Studied sports analytics basics", "badge": { "name": "Stats Learner", "icon": "📊" }, "progressWeight": 20 },
+        { "task": "Analyzed first match/game", "badge": { "name": "Game Analyst", "icon": "📺" }, "progressWeight": 20 },
+        { "task": "Created performance reports", "badge": { "name": "Performance Tracker", "icon": "📝" }, "progressWeight": 20 },
+        { "task": "Advised team/athlete", "badge": { "name": "Insight Provider", "icon": "💡" }, "progressWeight": 20 },
+        { "task": "Published insights/research", "badge": { "name": "Sports Analyst Pro", "icon": "🎤" }, "progressWeight": 20 }
+      ]
+    },
+    "Fitness Trainer": {
+      "milestones": [
+        { "task": "Earned fitness certification", "badge": { "name": "Certified Trainer", "icon": "💪" }, "progressWeight": 20 },
+        { "task": "Trained first client", "badge": { "name": "Client’s First Coach", "icon": "🏋️" }, "progressWeight": 20 },
+        { "task": "Designed workout plan", "badge": { "name": "Plan Creator", "icon": "📘" }, "progressWeight": 20 },
+        { "task": "Achieved client transformation", "badge": { "name": "Impact Maker", "icon": "⚡" }, "progressWeight": 20 },
+        { "task": "Built regular client base", "badge": { "name": "Trusted Trainer", "icon": "🌟" }, "progressWeight": 20 }
+      ]
+    },
+    "Sports Physiotherapist": {
+      "milestones": [
+        { "task": "Completed physiotherapy training", "badge": { "name": "Physio Certified", "icon": "📜" }, "progressWeight": 20 },
+        { "task": "Assisted first athlete recovery", "badge": { "name": "Rehab Helper", "icon": "🩺" }, "progressWeight": 20 },
+        { "task": "Developed injury prevention plan", "badge": { "name": "Prevention Specialist", "icon": "📘" }, "progressWeight": 20 },
+        { "task": "Worked with team/club", "badge": { "name": "Team Physio", "icon": "🏟️" }, "progressWeight": 20 },
+        { "task": "Recognized for athlete care", "badge": { "name": "Athlete’s Ally", "icon": "🌟" }, "progressWeight": 20 }
+      ]
+    },
+    "Sports Psychologist": {
+      "milestones": [
+        { "task": "Earned psychology/sports degree", "badge": { "name": "Certified Psychologist", "icon": "📜" }, "progressWeight": 20 },
+        { "task": "Helped athlete manage stress", "badge": { "name": "Mind Coach", "icon": "🧠" }, "progressWeight": 20 },
+        { "task": "Designed mental training plan", "badge": { "name": "Mental Trainer", "icon": "📘" }, "progressWeight": 20 },
+        { "task": "Worked with a team", "badge": { "name": "Team Psychologist", "icon": "🏟️" }, "progressWeight": 20 },
+        { "task": "Published/recognized work", "badge": { "name": "Thought Leader", "icon": "🌟" }, "progressWeight": 20 }
+      ]
+    },
+    "Sports Official (Referee/Umpire)": {
+      "milestones": [
+        { "task": "Completed officiating certification", "badge": { "name": "Certified Official", "icon": "📜" }, "progressWeight": 20 },
+        { "task": "Officiated first match", "badge": { "name": "Debut Referee", "icon": "⚖️" }, "progressWeight": 20 },
+        { "task": "Handled high-pressure game", "badge": { "name": "Fair Play Keeper", "icon": "⚡" }, "progressWeight": 20 },
+        { "task": "Officiated district/state level", "badge": { "name": "Recognized Referee", "icon": "🏟️" }, "progressWeight": 20 },
+        { "task": "Earned respect/recognition", "badge": { "name": "Respected Official", "icon": "🌟" }, "progressWeight": 20 }
+      ]
+    },
+    "Sports Journalist": {
+      "milestones": [
+        { "task": "Covered first sports event", "badge": { "name": "Event Reporter", "icon": "📝" }, "progressWeight": 20 },
+        { "task": "Wrote first published article", "badge": { "name": "Published Writer", "icon": "📰" }, "progressWeight": 20 },
+        { "task": "Interviewed athlete/coach", "badge": { "name": "Sports Interviewer", "icon": "🎤" }, "progressWeight": 20 },
+        { "task": "Gained audience/followers", "badge": { "name": "Fan Favorite", "icon": "📺" }, "progressWeight": 20 },
+        { "task": "Recognized as journalist", "badge": { "name": "Respected Reporter", "icon": "🌟" }, "progressWeight": 20 }
+      ]
+    },
+    "Sports Manager": {
+      "milestones": [
+        { "task": "Studied sports management basics", "badge": { "name": "Learner", "icon": "📚" }, "progressWeight": 20 },
+        { "task": "Managed first event/team task", "badge": { "name": "Event Manager", "icon": "📆" }, "progressWeight": 20 },
+        { "task": "Secured sponsorship/partnership", "badge": { "name": "Deal Maker", "icon": "🤝" }, "progressWeight": 20 },
+        { "task": "Handled major sports event", "badge": { "name": "Event Pro", "icon": "🏟️" }, "progressWeight": 20 },
+        { "task": "Earned recognition in sports mgmt", "badge": { "name": "Leader", "icon": "🌟" }, "progressWeight": 20 }
+      ]
+    },
+    "Esports Professional": {
+      "milestones": [
+        { "task": "Joined esports community/team", "badge": { "name": "Team Gamer", "icon": "🎮" }, "progressWeight": 20 },
+        { "task": "Competed in first tournament", "badge": { "name": "Debut Gamer", "icon": "🔥" }, "progressWeight": 20 },
+        { "task": "Streamed/shared gameplay", "badge": { "name": "Content Creator", "icon": "📺" }, "progressWeight": 20 },
+        { "task": "Reached competitive rank/title", "badge": { "name": "Ranked Player", "icon": "🏆" }, "progressWeight": 20 },
+        { "task": "Won recognition/prize", "badge": { "name": "Esports Champion", "icon": "🌟" }, "progressWeight": 20 }
+      ]
+    },
+    "Football Player": {
+      "milestones": [
+        { "task": "Joined a football club/team", "badge": { "name": "Team Player", "icon": "⚽" }, "progressWeight": 20 },
+        { "task": "Played first official match", "badge": { "name": "Debut Match", "icon": "🎯" }, "progressWeight": 20 },
+        { "task": "Scored first goal", "badge": { "name": "Goal Scorer", "icon": "🥅" }, "progressWeight": 20 },
+        { "task": "Selected for state/national team", "badge": { "name": "Representative", "icon": "🎽" }, "progressWeight": 20 },
+        { "task": "Won trophy/award", "badge": { "name": "Champion", "icon": "🏆" }, "progressWeight": 20 }
+      ]
+    },
+    "Cricket Player": {
+      "milestones": [
+        { "task": "Joined a cricket club/team", "badge": { "name": "Team Player", "icon": "🏏" }, "progressWeight": 20 },
+        { "task": "Played first official match", "badge": { "name": "Debut Match", "icon": "🎯" }, "progressWeight": 20 },
+        { "task": "Scored first run/took first wicket", "badge": { "name": "Game Changer", "icon": "🥅" }, "progressWeight": 20 },
+        { "task": "Selected for state/national team", "badge": { "name": "Representative", "icon": "🎽" }, "progressWeight": 20 },
+        { "task": "Won trophy/award", "badge": { "name": "Champion", "icon": "🏆" }, "progressWeight": 20 }
+      ]
+    },
+    "Hockey Player": {
+      "milestones": [
+        { "task": "Joined a hockey club/team", "badge": { "name": "Team Player", "icon": "🏑" }, "progressWeight": 20 },
+        { "task": "Played first official match", "badge": { "name": "Debut Match", "icon": "🎯" }, "progressWeight": 20 },
+        { "task": "Scored first goal/assist", "badge": { "name": "Goal Maker", "icon": "🥅" }, "progressWeight": 20 },
+        { "task": "Selected for state/national team", "badge": { "name": "Representative", "icon": "🎽" }, "progressWeight": 20 },
+        { "task": "Won trophy/medal", "badge": { "name": "Champion", "icon": "🏆" }, "progressWeight": 20 }
+      ]
+    },
+    "Tennis Player": {
+      "milestones": [
+        { "task": "Joined a tennis club", "badge": { "name": "Tennis Starter", "icon": "🎾" }, "progressWeight": 20 },
+        { "task": "Played first official match", "badge": { "name": "Debut Match", "icon": "🎯" }, "progressWeight": 20 },
+        { "task": "Won first set/match", "badge": { "name": "First Win", "icon": "🏅" }, "progressWeight": 20 },
+        { "task": "Participated in national/state tournament", "badge": { "name": "Representative", "icon": "🎽" }, "progressWeight": 20 },
+        { "task": "Won trophy/award", "badge": { "name": "Champion", "icon": "🏆" }, "progressWeight": 20 }
+      ]
+    },
+    "Chess Player": {
+      "milestones": [
+        { "task": "Joined a chess club", "badge": { "name": "Chess Beginner", "icon": "♟️" }, "progressWeight": 20 },
+        { "task": "Played first official tournament", "badge": { "name": "Debut Player", "icon": "🎯" }, "progressWeight": 20 },
+        { "task": "Achieved first rating/points", "badge": { "name": "Rated Player", "icon": "🏅" }, "progressWeight": 20 },
+        { "task": "Won state/national level match", "badge": { "name": "Representative", "icon": "🎽" }, "progressWeight": 20 },
+        { "task": "Won medal/trophy", "badge": { "name": "Champion", "icon": "🏆" }, "progressWeight": 20 }
+      ]
+    },
+    "Badminton Player": {
+      "milestones": [
+        { "task": "Joined a badminton club", "badge": { "name": "Shuttle Starter", "icon": "🏸" }, "progressWeight": 20 },
+        { "task": "Played first official match", "badge": { "name": "Debut Match", "icon": "🎯" }, "progressWeight": 20 },
+        { "task": "Won first game", "badge": { "name": "First Win", "icon": "🏅" }, "progressWeight": 20 },
+        { "task": "Participated in national/state tournament", "badge": { "name": "Representative", "icon": "🎽" }, "progressWeight": 20 },
+        { "task": "Won trophy/award", "badge": { "name": "Champion", "icon": "🏆" }, "progressWeight": 20 }
+      ]
+    },
+    "Swimming Athlete": {
+      "milestones": [
+        { "task": "Joined swimming club", "badge": { "name": "Swim Starter", "icon": "🏊" }, "progressWeight": 20 },
+        { "task": "Completed first competition", "badge": { "name": "Debut Race", "icon": "🎯" }, "progressWeight": 20 },
+        { "task": "Achieved personal best time", "badge": { "name": "Record Setter", "icon": "⏱️" }, "progressWeight": 20 },
+        { "task": "Participated in state/national meet", "badge": { "name": "Representative", "icon": "🎽" }, "progressWeight": 20 },
+        { "task": "Won medal/trophy", "badge": { "name": "Champion", "icon": "🏆" }, "progressWeight": 20 }
+      ]
+    },
+    "Track & Field Athlete": {
+      "milestones": [
+        { "task": "Joined athletics club", "badge": { "name": "Athletics Starter", "icon": "🏃" }, "progressWeight": 20 },
+        { "task": "Participated in first official event", "badge": { "name": "Debut Event", "icon": "🎯" }, "progressWeight": 20 },
+        { "task": "Achieved personal best record", "badge": { "name": "Record Setter", "icon": "⏱️" }, "progressWeight": 20 },
+        { "task": "Represented state/nation", "badge": { "name": "Representative", "icon": "🎽" }, "progressWeight": 20 },
+        { "task": "Won medal/trophy", "badge": { "name": "Champion", "icon": "🏆" }, "progressWeight": 20 }
+      ]
+    },
+    "Gymnast": {
+      "milestones": [
+        { "task": "Joined gymnastics academy", "badge": { "name": "Gym Starter", "icon": "🤸" }, "progressWeight": 20 },
+        { "task": "Performed first official routine", "badge": { "name": "Debut Routine", "icon": "🎯" }, "progressWeight": 20 },
+        { "task": "Mastered first difficult skill", "badge": { "name": "Skill Master", "icon": "🏅" }, "progressWeight": 20 },
+        { "task": "Participated in state/national meet", "badge": { "name": "Representative", "icon": "🎽" }, "progressWeight": 20 },
+        { "task": "Won medal/trophy", "badge": { "name": "Champion", "icon": "🏆" }, "progressWeight": 20 }
+      ]
+    }
+  }
+}
