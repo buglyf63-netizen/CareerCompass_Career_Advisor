@@ -10,6 +10,42 @@
 [![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com/)
 [![Google Gemini](https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=google-gemini&logoColor=white)](https://ai.google.dev/)
 
+
+## 📺 Video Demo
+
+[![CareerCompass Demo](https://img.youtube.com/vi/yA4FPALgxA0/0.jpg)](https://www.youtube.com/watch?v=yA4FPALgxA0)
+
+## 📸 Screenshots
+
+<div align="left">
+  
+1)Landing page
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/0d2ae2c9-3c5b-4d87-a8d5-fd09a5a4144c" />
+2)Dashboard
+<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/76918c78-553a-4fcd-ad6f-f692871bb342" />
+3)Resume Upload and result
+<img width="1874" height="838" alt="Screenshot 2026-01-11 185355" src="https://github.com/user-attachments/assets/ba5425ee-bf2c-4b7c-885b-25653d241587" />
+<img width="1907" height="854" alt="Screenshot 2026-01-11 185416" src="https://github.com/user-attachments/assets/fe50b158-555a-4414-96c0-134fa3684479" />
+4)Psychometric Test and result
+<img width="1893" height="891" alt="Screenshot 2026-01-11 185404" src="https://github.com/user-attachments/assets/a1a9e16d-c95d-4fc0-998d-c1be3ee4ae55" />
+<img width="1907" height="854" alt="Screenshot 2026-01-11 185416" src="https://github.com/user-attachments/assets/4f972be0-36f2-4d1b-b9a5-bef8ceb5d1e2" />
+5)Progress Tracker 
+<img width="1910" height="858" alt="Screenshot 2026-01-11 185447" src="https://github.com/user-attachments/assets/b469d738-8b87-4ebf-ba1f-2e09758721a8" />
+6)Carrer Advice
+<img width="1914" height="851" alt="Screenshot 2026-01-11 185433" src="https://github.com/user-attachments/assets/dfd83805-940d-46cc-90f8-feb68998bdc3" />
+<img width="1912" height="826" alt="Screenshot 2026-01-11 185424" src="https://github.com/user-attachments/assets/bff05246-f63a-4947-aaf6-1b2aec0b4f89" />
+7)AI Mentors
+<img width="1915" height="881" alt="Screenshot 2026-01-11 194349" src="https://github.com/user-attachments/assets/ec718eaa-3d8e-408b-93b6-2176bcd874f5" />
+<img width="1915" height="759" alt="Screenshot 2026-01-11 194426" src="https://github.com/user-attachments/assets/e0718626-aea0-44ce-b101-34fc1afbc609" />
+
+
+
+</div>
+
+## 🌐 Live Demo
+
+Check out the live application here: [**CareerCompass.ai Live**](https://careercompass-ai-c4027.web.app/)
+
 ## 🎯 The Problem: The Modern Career Maze
 
 The modern career landscape is a confusing and often frustrating maze. Talented individuals face significant hurdles:
@@ -38,24 +74,6 @@ Our platform doesn't just give you data; it gives you a **direction**. It's your
 *   **🌍 Abroad Opportunities Advisor:** A specialized chatbot to help users explore international job and education opportunities tailored to their profile.
 *   **🔒 Secure User Profiles:** A complete authentication system and a personal dashboard where users can manage their profile, view results, and track their progress.
 
-## 📺 Video Demo
-
-[![CareerCompass Demo](https://www.youtube.com/watch?v=yA4FPALgxA0)
-
-## 📸 Screenshots
-
-<div align="center">
-  <img src="https://via.placeholder.com/600x400?text=Dashboard+Screenshot" alt="Dashboard" width="45%">
-  <img src="https://via.placeholder.com/600x400?text=Analysis+Report" alt="Analysis Report" width="45%">
-</div>
-<div align="center">
-  <img src="https://via.placeholder.com/600x400?text=Learning+Roadmap" alt="Learning Roadmap" width="45%">
-  <img src="https://via.placeholder.com/600x400?text=AI+Mentor+Chat" alt="AI Mentor Chat" width="45%">
-</div>
-
-## 🌐 Live Demo
-
-Check out the live application here: [**CareerCompass.ai Live**](https://your-live-link-here.com)
 
 
 ## 🛠️ Tech Stack & Architecture
@@ -79,55 +97,6 @@ We've built CareerCompass.ai on a modern, scalable, and AI-native stack designed
 
 ---
 
-## 🏆 Alignment with Hackathon Evaluation Criteria
-
-This section explicitly outlines how CareerCompass.ai meets each of the hackathon's evaluation parameters for Yoranza Hackathon 2026.
-
-### **1. Technical Merit (40%)**
-
-*   **Sophisticated AI/ML Stack:** We use **Google's Genkit** as our core AI orchestration framework to manage complex, multi-step AI workflows. This allows us to reliably structure prompts, define I/O schemas with **Zod**, and seamlessly integrate with the **Gemini API**.
-*   **Advanced Gen AI Usage:** We go beyond simple text generation. Our solution uses Gemini for:
-    *   **Structured Data Extraction:** Parsing unstructured resume text into JSON.
-    *   **Personalized Content Generation:** Creating custom psychometric tests and multi-part evaluation reports.
-    *   **Tool-Based Reasoning:** Our chatbots (`TechMitra`, `Abroad Advisor`) use Genkit tools to decide when to search for external information (like learning resources or university info) to provide more accurate answers.
-    *   **Text-to-Diagram:** We convert textual learning roadmaps into visual **Mermaid.js flowcharts**.
-*   **Robust & Scalable Backend:** Our entire backend is serverless, built on **Firebase**. We use **Firebase Authentication** for secure user management, **Cloud Firestore** for a highly scalable NoSQL database, and **Firebase App Hosting** for automated, scalable deployment. This architecture requires minimal maintenance and can handle a massive user base with ease.
-*   **Modern Frontend:** The application is built with **Next.js (App Router)**, leveraging server components for improved performance and a better user experience. **TypeScript** is used throughout for end-to-end type safety.
-
-### **2. Innovation & Creativity (20%)**
-
-*   **Holistic Integration vs. Siloed Tools:** Unlike existing platforms like LinkedIn (social/jobs), Coursera (courses), or LeetCode (interview prep), CareerCompass.ai is the **first to holistically integrate** every step of the career journey. We connect the dots from self-discovery to skill-building to job application.
-*   **Dual-Analysis for Deep Personalization:** Our most unique feature is the synthesis of **resume data ("what you've done")** with **psychometric results ("who you are")**. This dual-analysis provides a far deeper level of personalization than any competitor, leading to recommendations that are not just technically relevant but also a great fit for the user's personality.
-*   **From Insight to Action:** We don't just provide a report and stop. Our core innovation is turning AI insights into a concrete, **actionable learning roadmap** and a **gamified progress tracker**. This empowers users to take immediate, structured action on their career goals.
-*   **On-Demand AI Mentorship:** The **TechMitra** AI mentor provides continuous, contextual guidance, acting as a long-term career partner rather than a one-time analysis tool.
-
-### **3. Alignment with Cause (15%)**
-
-*   **Empowering Individuals Globally:** CareerCompass.ai directly addresses the global challenge of career uncertainty and underemployment. We provide access to personalized career guidance—a service typically reserved for those who can afford expensive career coaches—to anyone with an internet connection.
-*   **Democratizing Opportunity:** By helping users identify and bridge skill gaps, our platform empowers individuals from all backgrounds to compete for high-value jobs in tech and other industries. This is especially impactful in developing regions where access to quality career counseling is limited.
-*   **Boosting Economic Mobility:** For students, we help them choose the right field of study and secure better internships. For professionals, we help them upskill, transition careers, and increase their earning potential. This directly contributes to economic mobility and a more skilled global workforce.
-*   **Fostering Lifelong Learning:** Our model encourages a mindset of continuous improvement, which is essential for thriving in the rapidly evolving modern economy.
-
-### **4. Market Feasibility (15%)**
-
-*   **Massive Target Audience:** Our platform serves a vast and diverse market:
-    *   **Students (High School & College):** Navigating academic and early career choices.
-    *   **Young Professionals:** Looking to accelerate their career growth.
-    *   **Career Switchers:** Seeking to transition into new industries (e.g., moving into tech).
-*   **Scalable Business Model:** We have multiple avenues for monetization:
-    *   **B2C (Freemium/Subscription):** A free tier for basic analysis with premium features (e.g., advanced reports, unlimited AI mentor chat) available via subscription.
-    *   **B2B (Institutional Partnerships):** Licensing the platform to universities, coding bootcamps, and corporate HR departments to provide career guidance at scale.
-*   **High Demand:** The demand for AI in HR and EdTech is booming. Companies are spending billions on finding the right talent, and individuals are actively seeking tools that give them a competitive edge. CareerCompass.ai is perfectly positioned to capture this market.
-
-### **5. User Experience (10%)**
-
-*   **Clean & Intuitive Dashboard:** Our dashboard is designed to be powerful yet simple. Key actions are presented as clear, accessible cards, and navigation is intuitive.
-*   **Gamification & Interactivity:** The **Progress Tracker** uses a progress bar and unlockable badges to make the skill-building process engaging and rewarding, increasing user retention.
-*   **Personalization at Every Step:** The entire experience is tailored to the user—from the personalized psychometric test to the custom-generated roadmaps and contextual chatbot conversations.
-*   **Seamless Flow:** The user journey is logical and smooth, guiding the user from one step to the next without friction.
-*   **Accessibility & Theming:** The UI is built with **ShadCN** components, which are designed with accessibility in mind. We also support both **light and dark modes** to cater to user preferences.
-
----
 
 ## ⚙️ How It Works: The User Journey
 
