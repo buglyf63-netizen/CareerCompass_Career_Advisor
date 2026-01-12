@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 40% 98%; /* #F8FAFC */
+    --foreground: 222 47% 11%; /* #111827 */
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    --primary: 173 80% 40%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 260 80% 60%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 173 80% 40%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 173 80% 40%;
+
+    --radius: 1rem;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+
+  .dark {
+    --background: 220 28% 8%; /* #0B1120 */
+    --foreground: 215 25% 98%; /* #F9FAFB */
+
+    --card: 224 71% 4%; /* #111827 */
+    --card-foreground: 215 25% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 25% 98%;
+
+    --primary: 173 80% 40%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 260 80% 60%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 217 33% 17%;
+    --muted-foreground: 215 20% 65%; /* #9CA3AF */
+
+    --accent: 173 80% 40%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 20% 98%;
+
+    --border: 215 28% 17%;
+    --input: 215 28% 17%;
+    --ring: 173 80% 40%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  .dark-gradient-background {
+    background: linear-gradient(135deg, #0B1120 0%, #1E103A 50%, #4A0E6B 100%);
+  }
+}
+
+.accent-gradient {
+  background: linear-gradient(135deg, hsl(var(--primary)) 0%, #059669 100%);
+}
+
+.secondary-gradient {
+  background: linear-gradient(135deg, hsl(var(--secondary)) 0%, #8b5cf6 100%);
+}
+
+.accent-text-gradient {
+  background: linear-gradient(135deg, hsl(var(--primary)) 0%, #059669 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Glassmorphism Card Style */
+.glass-card {
+  background-color: rgba(17, 24, 39, 0.6); /* --card with alpha */
+  backdrop-filter: blur(12px);
+  border-width: 1px;
+  border-color: rgba(255, 255, 255, 0.08); /* border with alpha */
+}
